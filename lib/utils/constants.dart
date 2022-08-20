@@ -31,6 +31,8 @@ const String epUserLogin = 'getat/registereduser/userlogin.php';
 const String epGetCorses = 'getat/corses/getcorses.php';
 const String epPostCorses = 'getat/corses/addcourses.php';
 
+const String epGetNews = 'getat/news/getletestnews.php';
+
 // full link to parse on http request
 
 String corsesimagepath = '${webDomain}getat/corses/uploads/';
