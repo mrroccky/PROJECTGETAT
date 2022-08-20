@@ -20,8 +20,10 @@ getat/corses/addcourses.php
 */
 
 //main website link
-const String webDomain = 'http://192.168.241.31/';
+//const String webDomain = 'http://192.168.32.31/';
+const String webDomain = 'https://saynadb.000webhostapp.com/';
 
+//https://saynadb.000webhostapp.com/getat/getatjobs/uploads/dev.png
 //all endpoints
 const String epGetJob = 'getat/getatjobs/getletestjobs.php';
 const String epPostJob = 'getat/getatjobs/postjob.php';

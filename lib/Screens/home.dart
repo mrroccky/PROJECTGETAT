@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
       child: Scaffold(
         body: SingleChildScrollView(
           // physics: const ClampingScrollPhysics(),
-          
+
           child: Container(
             width: width,
             height: height,
@@ -133,7 +133,7 @@ class _HomeState extends State<Home> {
                       return Expanded(
                         child: ListView.builder(
                           primary: false,
-                          // physics: const ClampingScrollPhysics(),
+                          physics: const NeverScrollableScrollPhysics(),
                           shrinkWrap: true,
                           scrollDirection: Axis.vertical,
                           itemCount: jobscontroller.JobsList.length,
@@ -215,7 +215,7 @@ class _HomeState extends State<Home> {
                                                 ),
                                                 Text(jobscontroller
                                                     .JobsList[index].job_type),
-                                               const  SizedBox(
+                                                const SizedBox(
                                                   width: 10,
                                                 ),
                                                 const Icon(
